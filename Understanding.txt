@@ -1,0 +1,17 @@
+* We need databases for storing and retreiving data.
+* SQLite,MySQL,PostgreSQL are some of the databases.
+* Python is useful in working on databases.
+* SQLite3(SQLite) and psycopg2(PostgreSQL)
+
+
+* sqlite3 is a library to interact with sqlite3 library.
+
+Way to interact with databases
+--- -- -------- ---- ---------
+i>   Connect to a database.
+ii>  Create a cursor object.
+iii> Write an SQL query.
+iv>  Commit the changes to the database.
+v>   Close the connection.
+
+packages installed - psycopg2-2.7.6.1-cp37-cp37m-win32.whl

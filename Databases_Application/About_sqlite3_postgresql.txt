@@ -1,0 +1,25 @@
+sqlite3 is an inbuilt Python library.
+insertion and modifications are done to the databases
+by using the SQL queries.
+
+i>    Connection to database.
+ii>   Creating a cursor object.
+iii>  Write a SQL Query.
+iv>   Commit the changes to database.
+v>    Close the connection.
+
+* We make use of commands such as CREATE TABLE,UPDATE,INSERT,DELETE
+  which are the SQL commands
+* WHERE,FROM,VALUES,INTO,SELECT are all the keywords.
+* We make use of commands and keywords to insert and fetch from the
+  database.
+* All the operations(CREATE TABLE,UPDATE,INSERT,DELETE) are done in Python
+  code.
+
+  Postgresql
+  * Here we connect to the postgresql database through localhost having a port.
+  * We perform operations using the Python code whereas SQL Query commands are
+    used to obtain the data from database.
+  * Open pgAdmin 4 from postgresql 11,now
+    Connect database -> Schemas -> public -> Tables  -> store
+  * On Query tool we can run the queries.
